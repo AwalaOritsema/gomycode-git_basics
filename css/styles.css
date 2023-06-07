@@ -9,7 +9,15 @@
   box-sizing: border-box;
 }
 
-main {
+header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+main,
+header {
   max-width: 960px;
   margin: 0 auto;
   padding: 16px;
